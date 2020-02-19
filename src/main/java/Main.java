@@ -1,4 +1,5 @@
 import exemplos.Aluno;
+import exemplos.Circulo;
 
 public class Main {
     public static void main(String[] args) {
@@ -23,8 +24,18 @@ public class Main {
         System.out.println(a2.getNomeCompleto());
 
 
-        System.out.println(calcularAreaQuadrado(15.0));
-        System.out.println(calcularPerimetroQuadrado(15.0));
+        System.out.println(calcularAreaQuadrado(10.0));
+        System.out.println(calcularPerimetroQuadrado(10.0));
+
+      /*  System.out.println(calculoAreaRetanguo(3.00, 2.00));  // tentativa minha de programa.
+        System.out.println(calculoAreaRetangulo(2.00));  //tentativa minha de programa.
+        System. out.println(calcularPerimetroRetangulo(2 * (base + altura)));*/
+
+        Circulo c1 = new Circulo();
+        c1.setRaio(10.00);
+      System.out.println(c1.calcularArea());
+      System.out.println(c1.calcularPerimetro());
+
 
 
     }
@@ -35,5 +46,21 @@ public class Main {
 
     public static Double calcularPerimetroQuadrado(Double lado) {
         return 4 * lado;
+    }
+
+    /*public static Double calculoAreaRetanguo(Double base *altura){
+        return base * altura;
+    }
+
+    public static Double calcularPerimetroRetangulo(Double 2 * (base + altura)){
+        return 2 * (base + altura);
+    }*/
+
+    public static Double calcularAreaCirculo(Double raio){
+        return raio * raio;
+    }
+
+    public static Double calcularPerimentroCirculo(Double raio){
+        return 2 * 3.14285714 * raio;
     }
 }
