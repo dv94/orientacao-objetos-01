@@ -17,10 +17,10 @@ public class CorrentistaTeste {
         c1.nome = "Juan";
         c1.telefone = "11-111111111";
         c1.email = "juan@juan.com";
-        assertNotNull(c1.codigo);
-        assertNotNull(c1.nome);
+        assertNotNull(c1.getCodigoCliente());
+       /* assertNotNull(c1.nome);
         assertNotNull(c1.telefone);
-        assertNotNull(c1.email);
+        assertNotNull(c1.email);*/
 
     }
 
