@@ -1,3 +1,5 @@
+package exercicios;
+
 import exemplos.Retangulo;
 
 import org.junit.jupiter.api.Test;
