@@ -1,6 +1,7 @@
 import exemplos.Aluno;
 import exemplos.Circulo;
 import exercicios.Correntista;
+import exercicios.Funcionario;
 
 public class Main {
     public static void main(String[] args) {
@@ -37,6 +38,20 @@ public class Main {
 //        System.out.println(c1.getCodigoCliente());
 //
 
+//        Funcionario f1 = new Funcionario();
+//        f1.nome = "Ash";
+//        f1.idade = 14;
+//        f1.email = "ash@ash.com";
+//        f1.salario = 3000.00;
+//
+//        System.out.println(f1.nome);
+//        System.out.println(f1.idade);
+//        System.out.println(f1.email);
+//        System.out.println(f1.salario);
+//        System.out.println(f1.obterDados());
+
+
+//
         System.out.println(calcularAreaQuadrado(10.0));
         System.out.println(calcularPerimetroQuadrado(10.0));
 

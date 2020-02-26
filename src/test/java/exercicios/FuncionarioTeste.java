@@ -30,7 +30,7 @@ public class FuncionarioTeste {
 
         Funcionario f1 = new Funcionario(nome,email,idade);
 
-        String result = nome + ", "+ idade + "anos (" +email+  ")";
+        String result = nome + ", "+ idade +  "anos (" +email+  ")";
 
         assertEquals(result,f1.obterDados());
 
