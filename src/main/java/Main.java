@@ -1,5 +1,6 @@
 import exemplos.Aluno;
 import exemplos.Circulo;
+import exercicios.Correntista;
 
 public class Main {
     public static void main(String[] args) {
@@ -23,6 +24,18 @@ public class Main {
         //System.out.println(a2.nome + " " + a2.sobrenome);
         System.out.println(a2.getNomeCompleto());
 
+//        Correntista c1 = new Correntista();
+//        c1.codigo = "1";
+//        c1.nome = "Juan";
+//        c1.telefone = "11-111111111";
+//        c1.email = "juan@juan.com";
+//
+//        System.out.println(c1.codigo);
+//        System.out.println(c1.nome);
+//        System.out.println(c1.telefone);
+//        System.out.println(c1.email);
+//        System.out.println(c1.getCodigoCliente());
+//
 
         System.out.println(calcularAreaQuadrado(10.0));
         System.out.println(calcularPerimetroQuadrado(10.0));
@@ -31,10 +44,10 @@ public class Main {
         System.out.println(calculoAreaRetangulo(2.00));  //tentativa minha de programa.
         System. out.println(calcularPerimetroRetangulo(2 * (base + altura)));*/
 
-        Circulo c1 = new Circulo();
-        c1.setRaio(10.00);
-      System.out.println(c1.calcularArea());
-      System.out.println(c1.calcularPerimetro());
+//        Circulo c1 = new Circulo();
+//        c1.setRaio(10.00);
+//      System.out.println(c1.calcularArea());
+//      System.out.println(c1.calcularPerimetro());
 
 
 
